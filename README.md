@@ -1,13 +1,15 @@
-<img align="right" width="20%" src="/assets/imgs/reelandread.png">
+<img align="right" width="10%" src="/assets/imgs/reelandread.png">
 
 # Reel & Read - Filmes, Livros e Séries 
 
-<p align="center">Este projeto foi desenvolvido durante a Imersão Dev [Alura](https://www.alura.com.br/) com [Google Gemini](https://gemini.google.com/).</p>
+Este projeto foi desenvolvido durante a Imersão Dev [Alura](https://www.alura.com.br/) com [Google Gemini](https://gemini.google.com/).
 
-
+   
 ## 💡 Sobre o projeto
-<img src="/assets/imgs/preview.png" width="50%" align="center">
-
+<div align="center">
+   <img src="/assets/imgs/preview.png" width="45%"> <img src="/assets/imgs/preview2.png" width="45%">
+</div>
+   
 O **Reel & Reed** é um repositório com informações sobre filmes, séries e livros. Com uma interface intuitiva e design moderno, o **Reel & Read** permite que você explore um vasto catálogo de obras, descubra novas sugestões personalizadas. Utilize as poderosas ferramentas de busca para encontrar exatamente o que você procura. Além dos títulos recomendados, o **Reel & Read** se integra com duas APIs, facilitando a consulta a outros títulos que sejam do seu interesse.
 
 ## 🛠️ Como usar
