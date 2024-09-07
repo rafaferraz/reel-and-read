@@ -219,7 +219,9 @@ function searchCatalogData(list, catalogType) {
         }
     });
 
-    results = results || `<p class="not-found">No results found</p>`;
+    if (!results && !useApis) {
+        results = `<p class="not-found">No results found</p>`;
+    }
     searchResultsDiv.innerHTML = results;
 }
 
