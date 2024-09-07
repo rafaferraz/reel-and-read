@@ -3,7 +3,6 @@
 # Reel & Read - Filmes, Livros e Séries 
 
 Este projeto foi desenvolvido durante a Imersão Dev [Alura](https://www.alura.com.br/) com [Google Gemini](https://gemini.google.com/).
-
    
 ## 💡 Sobre o projeto
 <div align="center">
@@ -13,7 +12,10 @@ Este projeto foi desenvolvido durante a Imersão Dev [Alura](https://www.alura.c
 O **Reel & Reed** é um repositório com informações sobre filmes, séries e livros. Com uma interface intuitiva e design moderno, o **Reel & Read** permite que você explore um vasto catálogo de obras, descubra novas sugestões personalizadas. Utilize as poderosas ferramentas de busca para encontrar exatamente o que você procura. Além dos títulos recomendados, o **Reel & Read** se integra com duas APIs, facilitando a consulta a outros títulos que sejam do seu interesse.
 
 ## 🛠️ Como usar
+### 💻 Acesse na web
+Acesse o site: https://vercel.com/rafaferrazs-projects/reel-and-read
 
+### ⚙️ Configurando o ambiente
 1. Clone o repositório com o seguinte comando:
    ```
    https://github.com/rafaferraz/reel-and-read.git
