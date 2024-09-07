@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reel & Read</title>
+    <link rel="shortcut icon" href="assets/imgs/reelandread.png" type="png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="flex-row">
+        <nav class="flex-row navigation">
+            <a href="/" class="flex-row logo">
+                <img class="icon" src="/assets/imgs/reelandread.png">
+                <h1>Reel & Read</h1>
+            </a>
+
+            <button class="nav-button flex-row" onclick="loadView('home')">
+                <img class="icon" src="assets/imgs/home.svg">
+                <p>Home</p>
+            </button>
+            <button class="nav-button flex-row" onclick="loadView('movies')">
+                <img class="icon" src="assets/imgs/movie.svg">
+                <p>Movies</p>
+            </button>
+            <button class="nav-button flex-row" onclick="loadView('series')">
+                <img class="icon" src="assets/imgs/live_tv.svg">
+                <p>Series</p>
+            </button>
+            <button class="nav-button flex-row" onclick="loadView('books')">
+                <img class="icon" src="assets/imgs/book.svg">
+                <p>Books</p>
+            </button>            
+        </nav>
+    
+        <div class="search-container flex-row">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="search-button flex-row" onclick="search()">
+                <img class="icon search-icon" src="assets/imgs/search.svg">
+                <img class="icon search-icon-active" src="assets/imgs/search_active.svg">
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="search"></section>
+
+        <section id="movies"></section>
+
+        <section id="series"></section>
+
+        <section id="books"></section>
+
+        <div class="modal">
+            <div class="modal-content flex-column"></div>
+        </div>
+    </main>
+
+    <footer class="flex-row">
+        <p><span>Re</span>el & <span>Re</span>ad - Movies, series and books</p>
+        <div class="social-media flex-row">
+            <a href="https://www.linkedin.com/in/rafaelacferraz/" target="_blank" title="LinkedIn"><img class="icon" src="/assets/imgs/linkedin.png"></a>
+            <a href="https://github.com/rafaferraz/reel-and-read" target="_blank" title="GitHub"><img class="icon" src="/assets/imgs/github.png"></a>
+            <a href="https://www.instagram.com/_rafacferraz/" target="_blank" title="Instagram"><img class="icon" src="/assets/imgs/instagram.png"></a>
+            <p>Rafaela C Ferraz</p>
+        </div>
+    </footer>
+
+    <script src="/data/catalog.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
