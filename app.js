@@ -1,5 +1,5 @@
-const OMDbApiKey = '8efcccd0';
-const googleApiKey = 'AIzaSyDwvc9kFH5TSFuCljZFHK1LKqbzhIBe9oU';
+const OMDbApiKey = '';
+const googleApiKey = '';
 const useApis = false;
 
 let currentView = 'home';
