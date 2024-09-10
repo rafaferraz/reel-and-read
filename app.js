@@ -168,25 +168,24 @@ function search() {
     cleanSection('search');
     createSection('search');
     searchResultsDiv = document.getElementById('search-results');
-    let results = '';
 
     switch (currentView) {
         case 'home':
-            searchAllCatalogData(results);
+            searchAllCatalogData();
             searchMovies(input.value);
             searchSeries(input.value);
             searchBooks(input.value);
             break;
         case 'movies':
-            searchCatalogData(topMovies, 'movies', results);
+            searchCatalogData(topMovies, 'movies');
             searchMovies(input.value);
             break;
         case 'series':
-            searchCatalogData(topSeries, 'series', results);
+            searchCatalogData(topSeries, 'series');
             searchSeries(input.value);
             break;
         case 'books':
-            searchCatalogData(topBooks, 'books', results);
+            searchCatalogData(topBooks, 'books');
             searchBooks(input.value);
             break;
         default:
@@ -194,17 +193,18 @@ function search() {
     }
 }
 
-function searchAllCatalogData(results) {
+function searchAllCatalogData() {
     const lists = [topMovies, topSeries, topBooks];
     const types = ['movies', 'series', 'books'];
 
-    lists.forEach((list, index) use results => {
-        searchCatalogData(list, types[index], results);
+    lists.forEach((list, index) => {
+        searchCatalogData(list, types[index],);
     });
 }
 
-function searchCatalogData(list, catalogType) {
+function searchCatalogData(list, catalogType,) {
     const searchTerm = input.value.toLowerCase();
+    let results = '';
 
     list.forEach(item => {
         if (item.title.toLowerCase().includes(searchTerm)) {
@@ -219,10 +219,10 @@ function searchCatalogData(list, catalogType) {
         }
     });
 
-    if (!results && !useApis) {
+    if (!results && !useApis && searchResultsDiv.childNodes.length == 0) {
         results = `<p class="not-found">No results found</p>`;
     }
-    searchResultsDiv.innerHTML = results;
+    searchResultsDiv.innerHTML += results;
 }
 
 function searchMovies(movieTitle) {
