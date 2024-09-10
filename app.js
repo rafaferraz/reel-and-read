@@ -168,24 +168,25 @@ function search() {
     cleanSection('search');
     createSection('search');
     searchResultsDiv = document.getElementById('search-results');
+    let results = '';
 
     switch (currentView) {
         case 'home':
-            searchAllCatalogData();
+            searchAllCatalogData(results);
             searchMovies(input.value);
             searchSeries(input.value);
             searchBooks(input.value);
             break;
         case 'movies':
-            searchCatalogData(topMovies, 'movies');
+            searchCatalogData(topMovies, 'movies', results);
             searchMovies(input.value);
             break;
         case 'series':
-            searchCatalogData(topSeries, 'series');
+            searchCatalogData(topSeries, 'series', results);
             searchSeries(input.value);
             break;
         case 'books':
-            searchCatalogData(topBooks, 'books');
+            searchCatalogData(topBooks, 'books', results);
             searchBooks(input.value);
             break;
         default:
@@ -193,18 +194,17 @@ function search() {
     }
 }
 
-function searchAllCatalogData() {
+function searchAllCatalogData(results) {
     const lists = [topMovies, topSeries, topBooks];
     const types = ['movies', 'series', 'books'];
 
-    lists.forEach((list, index) => {
-        searchCatalogData(list, types[index]);
+    lists.forEach((list, index) use results => {
+        searchCatalogData(list, types[index], results);
     });
 }
 
 function searchCatalogData(list, catalogType) {
     const searchTerm = input.value.toLowerCase();
-    let results = '';
 
     list.forEach(item => {
         if (item.title.toLowerCase().includes(searchTerm)) {
