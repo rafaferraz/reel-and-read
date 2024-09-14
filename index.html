@@ -9,30 +9,34 @@
 </head>
 <body>
     <header class="flex-row">
-        <nav class="flex-row navigation">
+        <button class="menu-button">
+            <img class="icon" src="assets/imgs/menu.svg">
+        </button>
+        <div class="flex-row">
             <a href="/" class="flex-row logo">
                 <img class="icon" src="/assets/imgs/reelandread.png">
-                <h1>Reel & Read</h1>
+                <h1 class="home-title">Reel & Read</h1>
             </a>
+            <nav class="flex-row navigation popover">
+                <button class="nav-button flex-row" onclick="loadView('home')">
+                    <img class="icon" src="assets/imgs/home.svg">
+                    <p>Home</p>
+                </button>
+                <button class="nav-button flex-row" onclick="loadView('movies')">
+                    <img class="icon" src="assets/imgs/movie.svg">
+                    <p>Movies</p>
+                </button>
+                <button class="nav-button flex-row" onclick="loadView('series')">
+                    <img class="icon" src="assets/imgs/live_tv.svg">
+                    <p>Series</p>
+                </button>
+                <button class="nav-button flex-row" onclick="loadView('books')">
+                    <img class="icon" src="assets/imgs/book.svg">
+                    <p>Books</p>
+                </button>            
+            </nav>
+        </div>
 
-            <button class="nav-button flex-row" onclick="loadView('home')">
-                <img class="icon" src="assets/imgs/home.svg">
-                <p>Home</p>
-            </button>
-            <button class="nav-button flex-row" onclick="loadView('movies')">
-                <img class="icon" src="assets/imgs/movie.svg">
-                <p>Movies</p>
-            </button>
-            <button class="nav-button flex-row" onclick="loadView('series')">
-                <img class="icon" src="assets/imgs/live_tv.svg">
-                <p>Series</p>
-            </button>
-            <button class="nav-button flex-row" onclick="loadView('books')">
-                <img class="icon" src="assets/imgs/book.svg">
-                <p>Books</p>
-            </button>            
-        </nav>
-    
         <div class="search-container flex-row">
             <input type="text" class="search-input" placeholder="Search">
             <button class="search-button flex-row" onclick="search()">
@@ -57,12 +61,12 @@
     </main>
 
     <footer class="flex-row">
-        <p><span>Re</span>el & <span>Re</span>ad - Movies, series and books</p>
+        <p><span>Re</span>el & <span>Re</span>ad</p>
         <div class="social-media flex-row">
             <a href="https://www.linkedin.com/in/rafaelacferraz/" target="_blank" title="LinkedIn"><img class="icon" src="/assets/imgs/linkedin.png"></a>
             <a href="https://github.com/rafaferraz/reel-and-read" target="_blank" title="GitHub"><img class="icon" src="/assets/imgs/github.png"></a>
             <a href="https://www.instagram.com/_rafacferraz/" target="_blank" title="Instagram"><img class="icon" src="/assets/imgs/instagram.png"></a>
-            <p>Rafaela C Ferraz</p>
+            <p class="developer">Rafaela C Ferraz</p>
         </div>
     </footer>
 

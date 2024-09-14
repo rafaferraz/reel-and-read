@@ -46,6 +46,12 @@ input.addEventListener('keyup', function(event) {
     if (event.key === 'Enter') search();
 });
 
+const menuButton = document.querySelector('.menu-button');
+const navItems = document.querySelector('.navigation');
+menuButton.addEventListener('click', () => {
+    navItems.classList.toggle('popover');
+});
+
 loadView('home');
 
 function loadView(view) {
@@ -75,6 +81,8 @@ function loadView(view) {
         default:
             break;
     }
+
+    navItems.classList.remove('popover');
 }
 
 function cleanAllSections() {
