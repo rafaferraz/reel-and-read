@@ -199,6 +199,8 @@ function search() {
         default:
             break;
     }
+
+    scrollTop();
 }
 
 function searchAllCatalogData() {
@@ -320,6 +322,11 @@ function searchBooks(bookTitle) {
         .catch(error => {
             console.error('Erro ao buscar informações do livro: ', error);
         });
+}
+
+function scrollTop() {
+    const main = document.querySelector(".main");
+    main.scrollTop = 0;
 }
 
 function openModal(title, catalogType) {
