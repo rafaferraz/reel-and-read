@@ -371,7 +371,7 @@ function createModal(item, catalogType) {
             </div>
     
             <div class="description flex-row">
-                <p>${item.plot}</p>
+                <p class="plot">${item.plot}</p>
                 <div class="more-info flex-column">
                     <p>${item.director}</p>
                     <a href="${item.link}" target="_blank" title="IMDb">More info</a>

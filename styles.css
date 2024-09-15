@@ -346,13 +346,16 @@ iframe {
     gap: 2rem;
     max-height: 10rem;
     overflow: hidden auto;
+    justify-content: space-between;
+}
+
+.plot {
+    width: 70%;
 }
 
 .more-info {
     text-align: end;
     gap: 1rem;
-    width: 50rem;
-    align-items: flex-end;
     padding-right: 0.5rem;
 }
 
@@ -384,8 +387,9 @@ footer span {
     padding: 0;
 }
 
-.social-media p {
+.developer {
     color: var(--color-dark-gray);
+    font-size: small;
 }
 
 @media screen and (max-width: 768px) {
@@ -428,8 +432,25 @@ footer span {
         background-color: var(--color-dark);
     }
 
+    .modal-content {
+        max-width: 90%;
+    }
+
+    .modal-image {
+        height: 13rem;
+    }
+
     .modal-cover {
-        margin-left: 0;
+        margin-left: 2rem;
+        height: 13rem;
+    }
+
+    .close-button {
+        position: absolute;
+        right: 7.5%;
+        margin: 1rem 1rem 0 0;
+        background-color: transparent;
+        transition: background-color 0.5s ease-in-out;
     }
 
     .modal-info .modal-title,
@@ -443,6 +464,14 @@ footer span {
         width: 100%;
         text-align: justify;
         align-items: flex-start;
+    }
+
+    .description {
+        max-height: 12.5rem;
+    }
+
+    .plot {
+        width: 97.5%;
     }
 
     footer {
