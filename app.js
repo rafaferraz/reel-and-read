@@ -16,9 +16,9 @@ const sectionsData = {
     },
     movies: {
         id: 'movies',
-        title: 'Top 10 movies of the year',
-        link: 'https://editorial.rottentomatoes.com/guide/box-office-top-10-movies-of-the-year/',
-        linkDescription: 'According to Rotten Tomatoes',
+        title: 'Top 10 highest-grossing films',
+        link: 'https://pt.wikipedia.org/wiki/Lista_de_filmes_de_maior_bilheteria',
+        linkDescription: 'Lista de filmes de maior bilheteria',
         catalogDiv: topMoviesDiv
     },
     series: {

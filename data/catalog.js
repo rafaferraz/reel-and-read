@@ -1,5 +1,82 @@
 let topMovies = [
     {
+        "title": "Avatar",
+        "director": "Director: James Cameron",
+        "year": "2009",
+        "duration": "162 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX300.jpg",
+        "plot": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "link": "https://www.imdb.com/title/tt0499549/",
+        "trailerLink": "https://www.youtube.com/embed/5PSNL1qE6VY?autoplay=1&mute=1",
+        "trailerTitle": "Avatar | Official Trailer (HD) | 20th Century FOX"
+    },
+    {
+        "title": "Avengers: Endgame",
+        "director": "Director: Anthony Russo, Joe Russo",
+        "year": "2019",
+        "duration": "181 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+        "plot": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        "link": "https://www.imdb.com/title/tt4154796/",
+        "trailerLink": "https://www.youtube.com/embed/TcMBFSGVi1c?autoplay=1&mute=1",
+        "trailerTitle": "Marvel Studios' Avengers: Endgame - Official Trailer"
+    },
+    {
+        "title": "Avatar: The Way of Water",
+        "director": "Director: James Cameron",
+        "year": "2022",
+        "duration": "192 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BNmQxNjZlZTctMWJiMC00NGMxLWJjNTctNTFiNjA1Njk3ZDQ5XkEyXkFqcGc@._V1_SX300.jpg",
+        "plot": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+        "link": "https://www.imdb.com/title/tt1630029/",
+        "trailerLink": "https://www.youtube.com/embed/a8Gx8wiNbs8?autoplay=1&mute=1",
+        "trailerTitle": "Avatar: The Way of Water | Official Teaser Trailer"
+    },
+    {
+        "title": "Titanic",
+        "director": "Director: James Cameron",
+        "year": "1997",
+        "duration": "194 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg",
+        "plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+        "link": "https://www.imdb.com/title/tt0120338/",
+        "trailerLink": "https://www.youtube.com/embed/kVrqfYjkTdQ?autoplay=1&mute=1",
+        "trailerTitle": "Titanic 3D Re-Release Official Trailer #1"
+    },
+    {
+        "title": "Star Wars: Episode VII — The Force Awakens",
+        "director": "Director: J.J. Abrams",
+        "year": "2015",
+        "duration": "138 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg",
+        "plot": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
+        "link": "https://www.imdb.com/title/tt2488496/",
+        "trailerLink": "https://www.youtube.com/embed/sGbxmsDFVnE?autoplay=1&mute=1",
+        "trailerTitle": "Star Wars: The Force Awakens Trailer (Official)"
+    },
+    {
+        "title": "Avengers: Infinity War",
+        "director": "Director: Anthony Russo, Joe Russo",
+        "year": "2018",
+        "duration": "149 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+        "plot": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+        "link": "https://www.imdb.com/title/tt4154756/",
+        "trailerLink": "https://www.youtube.com/embed/6ZfuNTqbHE8?autoplay=1&mute=1",
+        "trailerTitle": "Marvel Studios' Avengers: Infinity War Official Trailer"
+    },
+    {
+        "title": "Spider-Man: No Way Home",
+        "director": "Director: Jon Watts",
+        "year": "2021",
+        "duration": "148 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_SX300.jpg",
+        "plot": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+        "link": "https://www.imdb.com/title/tt10872600/",
+        "trailerLink": "https://www.youtube.com/embed/JfVOs4VSpmA?autoplay=1&mute=1",
+        "trailerTitle": "SPIDER-MAN: NO WAY HOME - Official Trailer (HD)"
+    },
+    {
         "title": "Inside Out 2",
         "director": "Director: Kelsey Mann",
         "year": "2024",
@@ -11,103 +88,26 @@ let topMovies = [
         "trailerTitle": "Inside Out 2 | Official Trailer"
     },
     {
-        "title": "Deadpool & Wolverine",
-        "director": "Director: Shawn Levy",
-        "year": "2024",
-        "duration": "128 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BNzRiMjg0MzUtNTQ1Mi00Y2Q5LWEwM2MtMzUwZDU5NmVjN2NkXkEyXkFqcGc@._V1_SX300.jpg",
-        "plot": "Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.",
-        "link": "https://www.imdb.com/title/tt6263850/",
-        "trailerLink": "https://www.youtube.com/embed/uJMCNJP2ipI?autoplay=1&mute=1",
-        "trailerTitle": "Deadpool & Wolverine | Official Teaser"
+        "title": "Jurassic World",
+        "director": "Director: Colin Trevorrow",
+        "year": "2015",
+        "duration": "124 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BNzBhNzlkM2UtZTQyOC00NjUyLTkzMmMtNDQ1YTM5N2NmMGE5XkEyXkFqcGc@._V1_SX300.jpg",
+        "plot": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+        "link": "https://www.imdb.com/title/tt0369610/",
+        "trailerLink": "https://www.youtube.com/embed/RFinNxS5KN4?autoplay=1&mute=1",
+        "trailerTitle": "Jurassic World - Official Trailer (HD)"
     },
     {
-        "title": "Despicable Me 4",
-        "director": "Director: Chris Renaud, Patrick Delage",
-        "year": "2024",
-        "duration": "94 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BOTk4MjFhZTMtOWIxOS00YzE2LThkZGEtMzg0MDAyMmFiZmU1XkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_SX300.jpg",
-        "plot": "Gru, Lucy, Margo, Edith, and Agnes welcome a new member to the family, Gru Jr., who is intent on tormenting his dad. Gru faces a new nemesis in Maxime Le Mal and his girlfriend Valentina, and the family is forced to go on the run.",
-        "link": "https://www.imdb.com/title/tt7510222/",
-        "trailerLink": "https://www.youtube.com/embed/LtNYaH61dXY?autoplay=1&mute=1",
-        "trailerTitle": "Despicable Me 4 | Official Trailer 2"
-    },
-    {
-        "title": "Dune: Part Two",
-        "director": "Director: Denis Villeneuve",
-        "year": "2024",
-        "duration": "166 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_SX300.jpg",
-        "plot": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
-        "link": "https://www.imdb.com/title/tt15239678/",
-        "trailerLink": "https://www.youtube.com/embed/Way9Dexny3w?autoplay=1&mute=1",
-        "trailerTitle": "Dune: Part Two | Official Trailer"
-    },
-    {
-        "title": "Twisters",
-        "director": "Director: Lee Isaac Chung",
-        "year": "2024",
-        "duration": "122 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BZTQ0YjZhNzMtMzMwYi00YTQwLTlhYTgtNDBlZjRhYjJmMzJmXkEyXkFqcGc@._V1_SX300.jpg",
-        "plot": "Kate Carter, a retired tornado-chaser and meteorologist, is persuaded to return to Oklahoma to work with a new team and new technologies.",
-        "link": "https://www.imdb.com/title/tt12584954/",
-        "trailerLink": "https://www.youtube.com/embed/wdok0rZdmx4?autoplay=1&mute=1",
-        "trailerTitle": "TWISTERS | Official Trailer"
-    },
-    {
-        "title": "Godzilla x Kong: The New Empire",
-        "director": "Director: Adam Wingard",
-        "year": "2024",
-        "duration": "115 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BY2QwOGE2NGQtMWQwNi00M2IzLThlNWItYWMzNGQ5YWNiZDA4XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
-        "plot": "Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins and connection to Skull Island's mysteries.",
-        "link": "https://www.imdb.com/title/tt14539740/",
-        "trailerLink": "https://www.youtube.com/embed/lV1OOlGwExM?autoplay=1&mute=1",
-        "trailerTitle": "Godzilla x Kong : The New Empire | Official Trailer"
-    },
-    {
-        "title": "Kung Fu Panda 4",
-        "director": "Director: Mike Mitchell, Stephanie Stine",
-        "year": "2024",
-        "duration": "94 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BZDY0YzI0OTctYjVhYy00MTVhLWE0NTgtYTRmYTBmOTE3YTViXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
-        "plot": "After Po is tapped to become the Spiritual Leader of the Valley of Peace, he needs to find and train a new Dragon Warrior, while a wicked sorceress plans to re-summon all the master villains whom Po has vanquished to the spirit re...",
-        "link": "https://www.imdb.com/title/tt21692408/",
-        "trailerLink": "https://www.youtube.com/embed/_inKs4eeHiI?autoplay=1&mute=1",
-        "trailerTitle": "KUNG FU PANDA 4 | Official Trailer"
-    },
-    {
-        "title": "Bad Boys: Ride or Die",
-        "director": "Director: Adil El Arbi, Bilall Fallah",
-        "year": "2024",
-        "duration": "115 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BY2U5YmQ3YjgtM2I2OC00YmM5LTkyM2MtN2I5Zjg2MDE0ODkwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
-        "plot": "When their late police captain gets linked to drug cartels, wisecracking Miami cops Mike Lowrey and Marcus Burnett embark on a dangerous mission to clear his name.",
-        "link": "https://www.imdb.com/title/tt4919268/",
-        "trailerLink": "https://www.youtube.com/embed/hRFY_Fesa9Q?autoplay=1&mute=1",
-        "trailerTitle": "BAD BOYS: RIDE OR DIE – Official Trailer (HD)"
-    },
-    {
-        "title": "Kingdom of the Planet of the Apes",
-        "director": "Director: Wes Ball",
-        "year": "2024",
-        "duration": "145 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BZGI4NTEwNTAtZDcwMi00MDkxLTg1OGYtNTZmMzE3ZDljNzVlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
-        "plot": "Many years after the reign of Caesar, a young ape goes on a journey that will lead him to question everything he's been taught about the past and make choices that will define a future for apes and humans alike.",
-        "link": "https://www.imdb.com/title/tt11389872/",
-        "trailerLink": "https://www.youtube.com/embed/XtFI7SNtVpY?autoplay=1&mute=1",
-        "trailerTitle": "Kingdom of the Planet of the Apes | Official Trailer"
-    },
-    {
-        "title": "A Quiet Place: Day One",
-        "director": "Director: Michael Sarnoski",
-        "year": "2024",
-        "duration": "99 min",
-        "cover": "https://m.media-amazon.com/images/M/MV5BNGZmODU3ZDEtMjQwZC00NTA5LThmNWYtYzk5MmY5ZmM4NGIxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
-        "plot": "A young woman named Sam finds herself trapped in New York City during the early stages of an invasion by alien creatures with ultra-sensitive hearing.",
-        "link": "https://www.imdb.com/title/tt13433802/",
-        "trailerLink": "https://www.youtube.com/embed/YPY7J-flzE8?autoplay=1&mute=1",
-        "trailerTitle": "A Quiet Place: Day One | Official Trailer"
+        "title": "The Lion King",
+        "director": "Director: Jon Favreau",
+        "year": "2019",
+        "duration": "118 min",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg",
+        "plot": "After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
+        "link": "https://www.imdb.com/title/tt6105098/",
+        "trailerLink": "https://www.youtube.com/embed/vXvtBVidecc?autoplay=1&mute=1",
+        "trailerTitle": "The Lion King (2019) Official Trailer"
     }
 ]
 
